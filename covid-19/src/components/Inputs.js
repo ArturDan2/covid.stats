@@ -1,4 +1,4 @@
-import React,{useEffect, useState} from "react";
+import React,{useState} from "react";
 //Axios
 import axios from "axios";
 //Styles
@@ -6,7 +6,7 @@ import styled from "styled-components";
 import {SearchAlt} from "@styled-icons/boxicons-regular/SearchAlt";
 //Components
 import Date from "./Date";
-import SearchCountry from "./SearchCountry"
+import SearchCountry from "./SearchCountry";
 //Router
 import {Link} from "react-router-dom";
 //Animations
@@ -56,7 +56,7 @@ const Inputs = ({countries,setDay,day,setDetailData, detailData}) => {
 return(
 
     <Container>
-        <h1>{errorMessage}</h1>
+        <h4>{errorMessage}</h4>
         <SearchInputs>
             <Date
                 setDay={setDay}
@@ -78,7 +78,7 @@ const Container = styled.div`
     flex-direction: column;
     margin-top: 15rem;
     height: 30rem;
-    h1{
+    h4{
         display: block;
         height: 1.2rem;
         font-size: 0.9rem;
