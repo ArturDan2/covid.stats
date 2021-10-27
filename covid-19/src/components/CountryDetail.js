@@ -28,7 +28,7 @@ const CountryDetail = ({detailData, setDetailData, day}) => {
         if(element.classList.contains("shadow")){
             setDetailData(null)
             history.push('/')
-        }ww
+        }
     } //Detail container gets closed when clicked outside of it
 
 
