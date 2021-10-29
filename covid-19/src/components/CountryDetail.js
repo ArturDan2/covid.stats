@@ -93,6 +93,7 @@ const DetailContainer = styled(motion.div)`
     min-width: 30%;
     background: white;
     z-index: 10;
+    margin-bottom: 5%;
     border-radius: 1rem;
     box-shadow: 0px 0.1px 5px #00000039;
     display: flex;
