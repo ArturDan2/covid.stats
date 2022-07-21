@@ -87,7 +87,6 @@ const Container = styled.div`
     }
 `
 const SearchInputs = styled.div`
-    /* margin-top: 15rem; */
     display: flex;
     justify-content: center;
     z-index: 2;
@@ -116,8 +115,8 @@ const SearchInputs = styled.div`
 
     @media (max-width: 590px) {
         input{
-            width: 12rem;
-            font-size: 1.4rem;
+            width: 9rem;
+            font-size: 1.2rem;
         }
     }
 `
