@@ -81,7 +81,7 @@ const CountryList = styled.ul`
     }
 
     @media (max-width: 590px) {
-        width: 12rem;
+        width: 9rem;
     }
 `
 
